@@ -4,5 +4,3 @@ numpy
 plotly
 joblib
 scikit-learn
-
-print("✅ requirements.txt telah dibuat")
