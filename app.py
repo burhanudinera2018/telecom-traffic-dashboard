@@ -203,3 +203,19 @@ with tab4:
 
 st.markdown("---")
 st.markdown("🔬 **Model:** LightGBM | **MAPE:** 31.13% | **Inference:** <1ms per prediksi")
+
+# ============================================
+# FOOTER - COPYRIGHT & ATTRIBUTION
+# ============================================
+
+st.markdown("---")
+st.markdown("""
+<div style="text-align: center; padding: 20px; color: #666; font-size: 14px;">
+    <hr style="margin-bottom: 20px;">
+    <p>© 2026 by <strong>Burhanudin Badiuzaman</strong> — Portfolio Project</p>
+    <p>📡 Based on public dataset from <strong>Harvard University</strong></p>
+    <p style="font-size: 12px; margin-top: 10px;">
+        Built with LightGBM • Streamlit • Plotly • Deployed on Streamlit Cloud
+    </p>
+</div>
+""", unsafe_allow_html=True)
